@@ -10,7 +10,7 @@ const updateTime = ()=>{
     const m = date.getMinutes();
     const s = date.getSeconds();
 
-    document.getElementById('terminalClock').textContent =` The current time is ${h}h : ${m}m : ${s}s`;
+    document.getElementById('terminalClock').textContent =` The current time is ${h}h : ${m}m : ${s}s `;
 }
 
 setInterval(updateTime,1000);
